@@ -14,7 +14,7 @@ var utils = (function (){
         return  year + '年' + month + '月' + date + '日 ' + hour + ':' + minute + ':' + second;
     };
 
-    return {
+    return {                
         getDate: getDate
     }
 })();
